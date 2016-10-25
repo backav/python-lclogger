@@ -8,11 +8,11 @@ __author__ = 'bac'
 
 setup(
     name='py_lclogger',
-    version='0.1',
+    version='0.4',
     keywords=('LogCentral', 'log','logger'),
     description=u'Save log to server',
     license='Apache License',
-    install_requires=['requests'],
+    install_requires=['requests','futures'],
 
     url="http://xiangyang.li/project/python_lclogger",
 
